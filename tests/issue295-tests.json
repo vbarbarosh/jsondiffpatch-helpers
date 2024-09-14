@@ -1,0 +1,57 @@
+[
+    {
+        "label": "issue 295 • case 1 | https://github.com/benjamine/jsondiffpatch/issues/295",
+        "a": [
+            {"id": 1, "style": {"zIndex": 1}},
+            {"id": 2, "style": {"zIndex": 2}},
+            {"id": 3, "style": {"zIndex": 3}},
+            {"id": 4, "style": {"zIndex": 4}},
+            {"id": 5, "style": {"zIndex": 5}},
+            {"id": 6, "style": {"zIndex": 6}},
+            {"id": 7, "style": {"zIndex": 7}},
+            {"id": 8, "style": {"zIndex": 8}},
+            {"id": 9, "style": {"zIndex": 9}}
+        ],
+        "b": [
+            {"id": 7, "style": {"zIndex": 1}},
+            {"id": 8, "style": {"zIndex": 2}},
+            {"id": 9, "style": {"zIndex": 3}},
+            {"id": 1, "style": {"zIndex": 4}},
+            {"id": 2, "style": {"zIndex": 5}},
+            {"id": 3, "style": {"zIndex": 6}},
+            {"id": 4, "style": {"zIndex": 7}},
+            {"id": 5, "style": {"zIndex": 8}},
+            {"id": 6, "style": {"zIndex": 9}}
+        ]
+    },
+    {
+        "label": "issue 295 • case 2 | https://github.com/benjamine/jsondiffpatch/issues/295",
+        "a": [
+            {"uid": "scene", "parent_uid": null},
+            {"uid": "txt_clztu14dm00042v6j71u1c9k3", "parent_uid": "scene"},
+            {"uid": "grp_cm0vzowcd00022v6izleecn6c", "parent_uid": "scene"},
+            {"uid": "txt_cm01a5cpi00012v6inbaunav1", "parent_uid": "grp_cm0vzowcd00022v6izleecn6c"},
+            {"uid": "txt_cm097vd9000012v6i9tsfrff2", "parent_uid": "grp_cm0vzowcd00022v6izleecn6c"},
+            {"uid": "txt_cm097w3zp00022v6iek5pr7id", "parent_uid": "grp_cm0vzowcd00022v6izleecn6c"},
+            {"uid": "fdr_cm0ukrqom00002v6ixqokqydk", "parent_uid": "scene"},
+            {"uid": "fdr_cm0umi0e000002v6ivbkyzpwf", "parent_uid": "fdr_cm0ukrqom00002v6ixqokqydk"},
+            {"uid": "txt_cm0bc6t0900022v6ij7baxq2d", "parent_uid": "fdr_cm0ukrqom00002v6ixqokqydk"},
+            {"uid": "txt_cm0bc70dh00032v6im4wawi5v", "parent_uid": "fdr_cm0ukrqom00002v6ixqokqydk"},
+            {"uid": "fdr_cm0vznwt800012v6ial614xz1", "parent_uid": "scene"},
+            {"uid": "txt_cm0bc5aid00002v6iu6e4a0m5", "parent_uid": "scene"}
+        ],
+        "b": [
+            {"uid": "scene", "parent_uid": null},
+            {"uid": "txt_clztu14dm00042v6j71u1c9k3", "parent_uid": "scene"},
+            {"uid": "txt_cm01a5cpi00012v6inbaunav1", "parent_uid": "scene"},
+            {"uid": "fdr_cm0ukrqom00002v6ixqokqydk", "parent_uid": "scene"},
+            {"uid": "fdr_cm0umi0e000002v6ivbkyzpwf", "parent_uid": "fdr_cm0ukrqom00002v6ixqokqydk"},
+            {"uid": "txt_cm097vd9000012v6i9tsfrff2", "parent_uid": "fdr_cm0umi0e000002v6ivbkyzpwf"},
+            {"uid": "txt_cm097w3zp00022v6iek5pr7id", "parent_uid": "fdr_cm0umi0e000002v6ivbkyzpwf"},
+            {"uid": "txt_cm0bc6t0900022v6ij7baxq2d", "parent_uid": "fdr_cm0ukrqom00002v6ixqokqydk"},
+            {"uid": "txt_cm0bc70dh00032v6im4wawi5v", "parent_uid": "fdr_cm0ukrqom00002v6ixqokqydk"},
+            {"uid": "fdr_cm0vznwt800012v6ial614xz1", "parent_uid": "scene"},
+            {"uid": "txt_cm0bc5aid00002v6iu6e4a0m5", "parent_uid": "scene"}
+        ]
+    }
+]

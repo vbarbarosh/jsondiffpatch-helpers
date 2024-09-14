@@ -1,0 +1,92 @@
+[
+    {
+        "label": "basic • no changes",
+        "a": {},
+        "b": {}
+    },
+    {
+        "label": "basic • object • single property • addition",
+        "a": {},
+        "b": {"foo": 1}
+    },
+    {
+        "label": "basic • object • single property • removal",
+        "a": {"foo": 1},
+        "b": {}
+    },
+    {
+        "label": "basic • object • single property • change",
+        "a": {"foo": 1},
+        "b": {"foo": 2}
+    },
+    {
+        "label": "basic • object • nested property • addition",
+        "a": {"foo": {}},
+        "b": {"foo": {"bar": 1}}
+    },
+    {
+        "label": "basic • object • nested property • removal",
+        "a": {"foo": {"bar": 1}},
+        "b": {"foo": {}}
+    },
+    {
+        "label": "basic • object • nested property • change",
+        "a": {"foo": {"bar": 1}},
+        "b": {"foo": {"bar": 2}}
+    },
+    {
+        "label": "basic • array • insertion of a single value",
+        "a": [],
+        "b": ["a"]
+    },
+    {
+        "label": "basic • array • insertion of multiple values",
+        "a": [],
+        "b": ["a", "b"]
+    },
+    {
+        "label": "basic • array • insertion into the middle",
+        "a":  ["a", "b", "c", "d", "e"],
+        "b":  ["a", "b", "x", "c", "d", "e"]
+    },
+    {
+        "label": "basic • array • insertion several items into the middle",
+        "a": ["a", "b", "c", "d", "e"],
+        "b": ["a", "b", "x", "y", "c", "d", "e"]
+    },
+    {
+        "label": "basic • array • removal from the start",
+        "a": ["a", "b", "c", "d", "e"],
+        "b": ["b", "c", "d", "e"]
+    },
+    {
+        "label": "basic • array • removal from the end",
+        "a": ["a", "b", "c", "d", "e"],
+        "b": ["a", "b", "c", "d"]
+    },
+    {
+        "label": "basic • array • removal from the middle",
+        "a": ["a", "b", "c", "d", "e"],
+        "b": ["a", "b", "d", "e"]
+    },
+    {
+        "label": "basic • array • insertion and removal",
+        "a": ["a", "b", "c", "d", "e"],
+        "b": ["a", "c", "d", "x", "e"]
+    },
+    {
+        "label": "basic • array • insertion, removal, and move",
+        "a": ["a", "b", "c", "d", "e"],
+        "b": ["a", "c", "x", "e", "d"]
+    },
+    {
+        "label": "basic • array • single movement forward",
+        "a": ["a", "b", "c", "d", "e"],
+        "b": ["b", "c", "d", "e", "a"]
+    },
+    {
+        "label": "basic • array • single movement backward",
+        "a": ["a", "b", "c", "d", "e"],
+        "b": ["e", "a", "b", "c", "d"]
+    }
+]
